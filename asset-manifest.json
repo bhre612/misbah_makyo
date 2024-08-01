@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/misbah_makyo/static/css/main.49374911.css",
+    "main.js": "/misbah_makyo/static/js/main.3e21e2a2.js",
+    "static/js/453.8218d548.chunk.js": "/misbah_makyo/static/js/453.8218d548.chunk.js",
+    "index.html": "/misbah_makyo/index.html",
+    "main.49374911.css.map": "/misbah_makyo/static/css/main.49374911.css.map",
+    "main.3e21e2a2.js.map": "/misbah_makyo/static/js/main.3e21e2a2.js.map",
+    "453.8218d548.chunk.js.map": "/misbah_makyo/static/js/453.8218d548.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49374911.css",
+    "static/js/main.3e21e2a2.js"
+  ]
+}
