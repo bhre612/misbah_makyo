@@ -3,7 +3,6 @@ import Select from 'react-select';
 
 const SearchableUserDropdown = ({ id, options, isMulti,isSearchable, label }) => {
   const [selectedUsers, setSelectedUsers] = useState([]);
-  // const [selectedUsers, setSelectedUsers] = useState([]); 
   const handleSelection = selectedOptions => {
     setSelectedUsers(selectedOptions);
   };
@@ -12,17 +11,6 @@ const SearchableUserDropdown = ({ id, options, isMulti,isSearchable, label }) =>
     setSelectedUsers(selectedUsers);
     handleSelection(selectedOptions);
   };
-
-//   const customStyles = {
-//     control: (base, state) => ({
-//       ...base,
-//       border: state.isFocused ? '2px solid #000' : '1px solid #ccc', // example of custom border
-//       boxShadow: state.isFocused ? null : null,
-//       '&:hover': {
-//         border: state.isFocused ? '2px solid #000' : '1px solid #ccc' // example of custom border
-//       }
-//     })
-//   };
 
   return (
     <div className="w-full max-w">
